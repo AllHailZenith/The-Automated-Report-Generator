@@ -3,3 +3,6 @@ I created the abstract VehicleReport class with a generateReport() method that c
 
 Phase 2
 I created TruckReport and BikeReport with different formatting methods. Both classes use the same collection and logging methods from the parent class. I learned how inheritance helps reduce duplicated code while allowing each vehicle to have its own behavior.
+
+Phase 3
+I added a boolean hook to control whether a maintenance check runs. Trucks override the hook to return true, while bikes use the default false value. I learned that hooks make it possible to add optional behavior without forcing every subclass to implement it.
